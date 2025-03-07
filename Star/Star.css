@@ -1,0 +1,38 @@
+.star {
+    position: fixed;
+    top:-20 px;
+    color: #fff;
+    animation: animate 5s linear forwards;
+}
+
+.star::before{
+    content: '\f5c0';
+    font-family: fontAwesome;
+    text-shadow: 0 0 5px #fff, 
+    0 0 20px #fff,
+    0 0 50px #fff;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    80%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: translateY(100vh) rotate(360deg);
+    }
+}
+
+@keyframes twinkle 
+{
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}

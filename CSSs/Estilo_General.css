@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(138, 222, 255),rgb(221, 116, 226),rgb(115, 5, 149),black);
+    background-attachment: fixed;
+    background-size: contain;
+    margin: 0;
+    min-height: 100vh;
+    overflow: auto;
+    font-family: "Lugrasimo",cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: small;
+}
+h2 {
+    font-size: x-large;
+}
+
+.brrr {
+    width: 30vw;
+    border-style: none;
+    border-top-style:double;
+    border-width: 5px;
+    border-color:rgba(155, 242, 247, 0.889);
+    padding-bottom: 20pt;
+}
+
+.Dot-down{
+    border-style: none ;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 1vw;
+    padding: 20px;
+    padding-top: 18px;
+    margin: auto;
+    color:rgba(239, 148, 247, 0.616);
+}
+
+.Dot-up{
+    border-style: none ;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 1vw;
+    padding: 18px;
+    margin: auto;
+    color:rgb(239, 148, 247, 0.616);
+}
+
+h3 {
+    text-align: start;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Encabezado {
+    display: flex; 
+    gap: 10px;
+    height: 120px;
+    position: relative;
+
+    font-size:x-large;
+    background-color: rgba(85, 234, 234, 0.34);
+    color: black;
+    padding: 40px;
+    /*Busca como cambiar la fuente*/
+}
+
+.Cabeza{
+    text-align: center;
+    flex-grow: 1;
+}
+
+.Grim{
+    position: absolute;
+    right: 23%;
+    height: 8vw;
+    width: 8vw;
+    top:0%
+}
+
+.CuadroTexto{
+    text-align: center; 
+    color:white; 
+    background-color: rgba(8, 248, 180, 0.314);
+    height: auto;
+    width: 55vw;
+    margin: auto;
+    align-items: center;
+    padding: 7px;
+}
+
+.Texto-Vinculo{
+    text-align: left;
+}
+
+.Contenidos-01 {
+    display: flex;
+    margin-left: 40px;
+    gap:15px;
+}
+
+.Pie {
+    margin-top: 100px;
+    color:white;
+    text-align:left; 
+    background-color: rgba(89, 21, 21, 0.184);  
+}
+

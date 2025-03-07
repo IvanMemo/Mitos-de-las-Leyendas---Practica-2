@@ -1,0 +1,41 @@
+.Inicial {
+    font-size: 1.5em; /* Ajusta el tamaño de la letra según sea necesario */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+    padding-bottom: 5px; /* Espacio entre el texto y la línea */
+    border-bottom: 2px solid white; /* Línea decorativa */
+}
+
+.Inicial::after {
+    content: ""; /* Necesario para que el pseudo-elemento se muestre */
+    display: block;
+    width: 50%; /* Longitud de la línea (ajusta según sea necesario) */
+    height: 2px; /* Grosor de la línea */
+    background-color: white; /* Color de la línea */
+    position: fixed;
+    bottom: 0; /* Posiciona la línea debajo del texto */
+    left: 25%; /* Centra la línea (ajusta según sea necesario) */
+}
+
+.Seccion-ABC{
+    padding-top: 20px;
+}
+
+.Lista-ABC{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.Columnas {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    text-align:start;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
